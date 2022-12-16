@@ -1,0 +1,141 @@
+/* ABOUT */
+
+@media screen and (max-width: 576px) {
+    .heading_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .heading_left h5 {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .col-sm-2 {
+        padding: 0px;
+    }
+}
+
+/*Education*/
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    
+    #education .heading h2 {
+        /* color: #d82c2e; */
+        margin: 15px -30px;
+        text-align: left;
+    
+    }
+}
+
+/* SKILLS */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .skills_interest .row > .col-md-4:nth-child(1) {
+        padding-left: 0px;
+        margin-bottom: 30px;
+        /* border: 2px solid rgb(194, 30, 153); */
+    
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(1) .col-sm-6:nth-child(2n+1) {
+        padding-left: 150px;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* border: 2px solid rgb(194, 30, 153); */
+    
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(1) .heading h2{
+        padding-left: 0px;
+        font-size: 1.55em;
+        /* border: 2px solid rgb(194, 30, 153); */
+
+    }
+    .skills_interest .row > .col-md-4:nth-child(2) {
+        padding-left: 60px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(2) .heading h2 {
+        padding-left: 60px;
+        font-size: 1.55em;
+    }
+    .skills_interest .row > .col-md-4:nth-child(3) {
+        padding-right: 40px;
+        margin-bottom: 30px;
+    
+    }
+    .skills_interest .row > .col-md-4:nth-child(3) .heading h2  {
+        font-size: 1.55em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills_interest .row > .col-md-4:nth-child(1) {
+        padding-left: 100px;
+        margin-bottom: 30px;
+        /* border: 2px solid rgb(194, 30, 153); */
+    
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(1) .col-sm-6:nth-child(2n+1) {
+        padding-left: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* border: 2px solid rgb(194, 30, 153); */
+    
+    
+    }
+    .skills_interest .row > .col-md-4:nth-child(1) .col-sm-6:nth-child(2n+0) {
+        padding-left: 0px;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* border: 2px solid rgb(194, 30, 153); */
+    
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(1) .heading h2{
+        padding-left: 0px;
+        font-size: 1.55em;
+        /* border: 2px solid rgb(194, 30, 153); */
+
+    }
+    .skills_interest .row > .col-md-4:nth-child(2) {
+        padding-left: 60px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .skills_interest .row > .col-md-4:nth-child(2) .heading h2 {
+        padding-left: 60px;
+        font-size: 1.55em;
+    }
+    .skills_interest .row > .col-md-4:nth-child(3) {
+        padding-right: 40px;
+        margin-bottom: 30px;
+    
+    }
+    .skills_interest .row > .col-md-4:nth-child(3) .heading h2  {
+        font-size: 1.55em;
+    }
+}
