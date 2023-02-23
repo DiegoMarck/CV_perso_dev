@@ -405,10 +405,7 @@ label {
     color: white;
   }
 /*---  NEW  ------*/
-.blue
-{
-    color: #0069d6;
-}
+
 .form-control
 {
     height: 50px;
@@ -422,8 +419,8 @@ label {
 .comments
 {
     font-style: italic;
-    font-size: 18px;
-    color: #d82c2e;
+    font-size: 14px;
+    color: #fff;
     height: 25px
 }
 #contact-form .thank-you
