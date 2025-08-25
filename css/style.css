@@ -453,6 +453,12 @@ label {
     color: #060239;
 }
 
+/*---  Carousel  ------*/
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
 
 
 
