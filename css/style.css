@@ -3,6 +3,8 @@ body {
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Space Mono', monospace;
     background-image: url("../images/fondCV.png");
+    background-color: rgba(76 118 148 / 0.71); /* Couleur de superposition */
+    background-blend-mode: overlay; /* Mélange l'image avec la couleur */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 30px; /* Ajout d'un padding pour compenser la navbar fixe */
@@ -84,6 +86,7 @@ section .heading h2 {
 
 /* ABOUT */
 #about {
+    padding-top: 80px; /* Ajout d'un padding pour compenser la navbar fixe */
     /* background-color: #d82c2e; */
 }
 
