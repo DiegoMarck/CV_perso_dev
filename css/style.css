@@ -5,6 +5,8 @@ body {
     background-image: url("../images/fondCV.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding-top: 30px; /* Ajout d'un padding pour compenser la navbar fixe */
+
 }
 
 h1, h3, h4, h5, h6 {
@@ -53,6 +55,12 @@ section .heading h2 {
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+    background-color: rgba(41 15 209 / 0.8);
 }
 
 .navbar-nav {

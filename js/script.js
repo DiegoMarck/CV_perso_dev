@@ -25,6 +25,36 @@ $(function() {
     const age = calculateAge(birthdate);
     $('.autre p').html($('.autre p').html().replace('47 ans', age + ' ans'));
     
+    // Variables pour la navbar
+    let lastScrollTop = 0;
+    const navbar = $('.navbar');
+    const navbarHeight = navbar.outerHeight();
+    let scrollTimer = null;
+    
+    // Fonction pour gérer l'affichage/masquage de la navbar
+    $(window).scroll(function() {
+        const scrollTop = $(this).scrollTop();
+        
+        // Masquer la navbar lors du défilement vers le bas
+        if (scrollTop > lastScrollTop && scrollTop > navbarHeight) {
+            navbar.css('top', -navbarHeight + 'px');
+        } 
+        // Afficher la navbar lors du défilement vers le haut
+        else if (scrollTop < lastScrollTop) {
+            navbar.css('top', '0');
+        }
+        
+        lastScrollTop = scrollTop;
+        
+        // Réinitialiser le timer à chaque défilement
+        clearTimeout(scrollTimer);
+        
+        // Définir un nouveau timer pour afficher la navbar après l'arrêt du défilement
+        scrollTimer = setTimeout(function() {
+            navbar.css('top', '0');
+        }, 800); // Délai avant réapparition (800ms)
+    });
+    
     $('#contact-form').submit(function(e) {
         e.preventDefault();
         $('.comments').empty();
