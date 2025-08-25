@@ -63,6 +63,7 @@ section .heading h2 {
 .nav-link {
     color: white !important;
     margin: 0 6px;
+    border-radius: 12px;
 }
 
 .nav-link.active,
