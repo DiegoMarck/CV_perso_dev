@@ -71,6 +71,7 @@ section .heading h2 {
     /* color: #730CD8 !important; */
     /* color: #060239 !important; */
     color: #931DC3 !important;
+    border-radius: 12px;
 }
 
 
