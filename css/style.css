@@ -69,8 +69,6 @@ section .heading h2 {
 .nav-link.active,
 .nav-link:hover {
     background-color: white;
-    /* color: #730CD8 !important; */
-    /* color: #060239 !important; */
     color: #931DC3 !important;
     border-radius: 12px;
 }
@@ -94,6 +92,23 @@ section .heading h2 {
     /* font-size: 34.3px; */
     text-align: left;
     margin-left: 10%;
+}
+
+.heading_left h5 {
+   margin-top: 120px;
+   margin-left: 6%;
+   text-align: left;
+}
+
+.heading_description {
+   margin-top: 120px;
+   margin-left: 6%;
+   text-align: left;
+}
+
+.heading_description p {
+   text-indent: 2em;
+   margin-bottom: 1em;
 }
 
 .button1 {
@@ -191,12 +206,30 @@ section .heading h2 {
 
 .exp {
     display: flex;
+    margin-bottom: 30px;
 }
  .date {
     padding-right: 15px;
     color: white;
     min-width: 104px;
  }
+ .exp .text p {
+    white-space: pre-line;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.exp .text h5 {
+    margin-bottom: 15px;
+    /* color: #931DC3; */
+    color: #FFC5F6
+}
+
+.exp .text p::first-line {
+    text-indent: 0;
+}
+
  .text {
     color: white;
  }
@@ -255,9 +288,6 @@ section .heading h2 {
 .skills_interest .row > .col-md-4:nth-child(1) {
     padding-left: 60px;
     margin-bottom: 30px;
-    /* border: 2px solid rgb(194, 30, 153); */
-
-
 }
 
 .skills_interest .row > .col-md-4:nth-child(1) .heading h2{
@@ -282,15 +312,6 @@ section .heading h2 {
 .skills_interest .row > .col-md-4:nth-child(3) .heading h2  {
     font-size: 1.55em;
 }
-
-/* .skills > .col-sm-6:nth-child(1) {
-    border: 2px solid rgb(194, 30, 153);
-    margin-left: 5%;
-}
-.skills > .col-sm-6:nth-child(2) {
-    border: 2px solid rgb(194, 30, 153);
-    margin-left: 5%;
-} */
 
 .skills {
     display: flex;
@@ -458,48 +479,3 @@ label {
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
