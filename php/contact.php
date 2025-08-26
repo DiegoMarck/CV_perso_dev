@@ -2,7 +2,7 @@
 
     $array = array("firstname" => "", "name" => "", "email" => "", "phone" => "", "message" => "", "firstnameError" => "", "nameError" => "", "emailError" => "", "phoneError" => "", "messageError" => "", "isSuccess" => false);
 
-    $emailTo = "ddemassy@gmail.com";
+    $emailTo = "diegordm@sediriegr.com";
 
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") 
